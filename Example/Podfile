@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'XKThemeManager_Example' do
+  pod 'XKThemeManager', :path => '../'
+
+  target 'XKThemeManager_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
