@@ -1,0 +1,6 @@
+module Pods_XKThemeManager_Example {
+  umbrella header "Pods-XKThemeManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

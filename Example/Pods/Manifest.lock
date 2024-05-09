@@ -1,0 +1,16 @@
+PODS:
+  - XKThemeManager (0.0.1)
+
+DEPENDENCIES:
+  - XKThemeManager (from `../`)
+
+EXTERNAL SOURCES:
+  XKThemeManager:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XKThemeManager: 8731fe66b1bbf1bdf93bf9dd4cdd2df8f1c7b276
+
+PODFILE CHECKSUM: db9bec8f26a4dba3b14bb918860949c7eb280505
+
+COCOAPODS: 1.15.2

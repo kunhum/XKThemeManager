@@ -1,0 +1,703 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		087FB069A157C42B882FFDC88157CD46 /* XKThemeExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F98992EC07674070FA003E8F4151C7D /* XKThemeExtension.swift */; };
+		27E86CF718BA1FDEDC1A38407D98ADB7 /* Pods-XKThemeManager_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9261F8448B45AA945C3A93D68C1DCEFD /* Pods-XKThemeManager_Example-dummy.m */; };
+		3F78D607776892F94CA9FC970B192A89 /* Pods-XKThemeManager_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 261CCBA47792FD0441C865F348710AA9 /* Pods-XKThemeManager_Example-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5A3CBA55B640FC073C8D03C57861E905 /* XKThemeProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA4615F64A098943CACC604D0492B7B1 /* XKThemeProtocol.swift */; };
+		6147C4040F6039407796FB98BD20A5B8 /* Pods-XKThemeManager_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BE3E4F55DBC11F3E892F2F7A7C24E089 /* Pods-XKThemeManager_Tests-dummy.m */; };
+		783A1D843C6181A15CAE03BF4167DE97 /* XKThemeManager-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B93F25EE20EA05E2F9CA71FB547BBDC /* XKThemeManager-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8FC3380A7B854F7358A081F11944A9D5 /* XKThemeManager-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B491F9B22662863FB0FFF85824EF3074 /* XKThemeManager-dummy.m */; };
+		E10B7E5FA7955BF2E6ADC0F03D1BC21E /* XKThemeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3735E7CB1C893D97E43BF0D380E59B8 /* XKThemeManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		36BCA210F9CBC8C40EA4BC1485E9DDFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A799D1884E7333072A9D1775D0C6C151;
+			remoteInfo = XKThemeManager;
+		};
+		A0911DE2B62AC6CBB7D0AEE760D48F8A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8996C6338065F0BBE97C970DE54D7E12;
+			remoteInfo = "Pods-XKThemeManager_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		012680533A739C3626AA5707441DE0FC /* Pods-XKThemeManager_Tests */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-XKThemeManager_Tests"; path = "libPods-XKThemeManager_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06ED84DFDA88031574825BC7E86C6DE3 /* XKThemeManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKThemeManager.release.xcconfig; sourceTree = "<group>"; };
+		0DB1C55B4652133E7A87C9B7C4C17BA0 /* Pods-XKThemeManager_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKThemeManager_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F98992EC07674070FA003E8F4151C7D /* XKThemeExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKThemeExtension.swift; path = XKThemeManager/Classes/XKThemeExtension.swift; sourceTree = "<group>"; };
+		1B1EE4D217B8888DA3266C9A75F63CF2 /* XKThemeManager.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = XKThemeManager.modulemap; sourceTree = "<group>"; };
+		20FDFE85E19E55C761B959E2C6EF303E /* Pods-XKThemeManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKThemeManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		261CCBA47792FD0441C865F348710AA9 /* Pods-XKThemeManager_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XKThemeManager_Example-umbrella.h"; sourceTree = "<group>"; };
+		55C3975B05A6FE4F882CAADCD656E963 /* Pods-XKThemeManager_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKThemeManager_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		58ED4BE36F7A3015FD0F9F2D3F2C3EEE /* XKThemeManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XKThemeManager.debug.xcconfig; sourceTree = "<group>"; };
+		633C42F162380C4FAFDFC54995A63C7E /* Pods-XKThemeManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKThemeManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		70863FA4FCADF914789801958689E233 /* XKThemeManager */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = XKThemeManager; path = libXKThemeManager.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7595165FE79A1B4C2C0366ADC671F3C2 /* Pods-XKThemeManager_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XKThemeManager_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		7635DE0F444D10C83B2B8C5A32D7C57D /* XKThemeManager-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKThemeManager-prefix.pch"; sourceTree = "<group>"; };
+		9261F8448B45AA945C3A93D68C1DCEFD /* Pods-XKThemeManager_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKThemeManager_Example-dummy.m"; sourceTree = "<group>"; };
+		965679519AEE54C03D1FB0E7485C074A /* Pods-XKThemeManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKThemeManager_Example.release.xcconfig"; sourceTree = "<group>"; };
+		9B93F25EE20EA05E2F9CA71FB547BBDC /* XKThemeManager-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "XKThemeManager-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AA4615F64A098943CACC604D0492B7B1 /* XKThemeProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKThemeProtocol.swift; path = XKThemeManager/Classes/XKThemeProtocol.swift; sourceTree = "<group>"; };
+		B19BB1D12A34C03DE9CBBB8554114D65 /* Pods-XKThemeManager_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XKThemeManager_Example.modulemap"; sourceTree = "<group>"; };
+		B491F9B22662863FB0FFF85824EF3074 /* XKThemeManager-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "XKThemeManager-dummy.m"; sourceTree = "<group>"; };
+		B57B6B8FCF6236469EDDA47DA850FDDF /* XKThemeManager.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XKThemeManager.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B66D1B8FB7CCC86EAEBA0D5970FA39B0 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BE3E4F55DBC11F3E892F2F7A7C24E089 /* Pods-XKThemeManager_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XKThemeManager_Tests-dummy.m"; sourceTree = "<group>"; };
+		C7B6D193CD44B61C6C78B1A46B6FF0AD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		E3735E7CB1C893D97E43BF0D380E59B8 /* XKThemeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = XKThemeManager.swift; path = XKThemeManager/Classes/XKThemeManager.swift; sourceTree = "<group>"; };
+		F244373E3ACBE461902BDAAA42B56BA7 /* Pods-XKThemeManager_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XKThemeManager_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F7A821087F7F665FA7C207510DF3ED9E /* Pods-XKThemeManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XKThemeManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF56AA68BC9DA1DE50BC69E104BF3713 /* Pods-XKThemeManager_Example */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "Pods-XKThemeManager_Example"; path = "libPods-XKThemeManager_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D694FDACC9AEEA48F92A0E00282F582 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CB0613BE691E17778B2E8014F38B60D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A915EEB28C3769770F564A346CB0F3F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		066513564F3F3CFD76A5BDCDD9AAC0A1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4203D1353AB187D8F76321187F27E283 /* XKThemeManager */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		4203D1353AB187D8F76321187F27E283 /* XKThemeManager */ = {
+			isa = PBXGroup;
+			children = (
+				0F98992EC07674070FA003E8F4151C7D /* XKThemeExtension.swift */,
+				E3735E7CB1C893D97E43BF0D380E59B8 /* XKThemeManager.swift */,
+				AA4615F64A098943CACC604D0492B7B1 /* XKThemeProtocol.swift */,
+				BD2399A2EFBF14A65AF9EB771C1CD6AD /* Pod */,
+				891387B7C2C02E9753F56D8FF8664339 /* Support Files */,
+			);
+			name = XKThemeManager;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6AC80AD016E7C440C208CFC7CC3A6C6D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F1F14353B462996BBFA41A477E945255 /* Pods-XKThemeManager_Example */,
+				C4BB7B0E59450E94FB82DDD4A1BF4E02 /* Pods-XKThemeManager_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		891387B7C2C02E9753F56D8FF8664339 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1B1EE4D217B8888DA3266C9A75F63CF2 /* XKThemeManager.modulemap */,
+				B491F9B22662863FB0FFF85824EF3074 /* XKThemeManager-dummy.m */,
+				7635DE0F444D10C83B2B8C5A32D7C57D /* XKThemeManager-prefix.pch */,
+				9B93F25EE20EA05E2F9CA71FB547BBDC /* XKThemeManager-umbrella.h */,
+				58ED4BE36F7A3015FD0F9F2D3F2C3EEE /* XKThemeManager.debug.xcconfig */,
+				06ED84DFDA88031574825BC7E86C6DE3 /* XKThemeManager.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/XKThemeManager";
+			sourceTree = "<group>";
+		};
+		BD2399A2EFBF14A65AF9EB771C1CD6AD /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C7B6D193CD44B61C6C78B1A46B6FF0AD /* LICENSE */,
+				B66D1B8FB7CCC86EAEBA0D5970FA39B0 /* README.md */,
+				B57B6B8FCF6236469EDDA47DA850FDDF /* XKThemeManager.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		C4BB7B0E59450E94FB82DDD4A1BF4E02 /* Pods-XKThemeManager_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F244373E3ACBE461902BDAAA42B56BA7 /* Pods-XKThemeManager_Tests-acknowledgements.markdown */,
+				7595165FE79A1B4C2C0366ADC671F3C2 /* Pods-XKThemeManager_Tests-acknowledgements.plist */,
+				BE3E4F55DBC11F3E892F2F7A7C24E089 /* Pods-XKThemeManager_Tests-dummy.m */,
+				F7A821087F7F665FA7C207510DF3ED9E /* Pods-XKThemeManager_Tests.debug.xcconfig */,
+				633C42F162380C4FAFDFC54995A63C7E /* Pods-XKThemeManager_Tests.release.xcconfig */,
+			);
+			name = "Pods-XKThemeManager_Tests";
+			path = "Target Support Files/Pods-XKThemeManager_Tests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				066513564F3F3CFD76A5BDCDD9AAC0A1 /* Development Pods */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				DED788AEB1ECD4EB86D974474C85C703 /* Products */,
+				6AC80AD016E7C440C208CFC7CC3A6C6D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DED788AEB1ECD4EB86D974474C85C703 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF56AA68BC9DA1DE50BC69E104BF3713 /* Pods-XKThemeManager_Example */,
+				012680533A739C3626AA5707441DE0FC /* Pods-XKThemeManager_Tests */,
+				70863FA4FCADF914789801958689E233 /* XKThemeManager */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F1F14353B462996BBFA41A477E945255 /* Pods-XKThemeManager_Example */ = {
+			isa = PBXGroup;
+			children = (
+				B19BB1D12A34C03DE9CBBB8554114D65 /* Pods-XKThemeManager_Example.modulemap */,
+				55C3975B05A6FE4F882CAADCD656E963 /* Pods-XKThemeManager_Example-acknowledgements.markdown */,
+				0DB1C55B4652133E7A87C9B7C4C17BA0 /* Pods-XKThemeManager_Example-acknowledgements.plist */,
+				9261F8448B45AA945C3A93D68C1DCEFD /* Pods-XKThemeManager_Example-dummy.m */,
+				261CCBA47792FD0441C865F348710AA9 /* Pods-XKThemeManager_Example-umbrella.h */,
+				20FDFE85E19E55C761B959E2C6EF303E /* Pods-XKThemeManager_Example.debug.xcconfig */,
+				965679519AEE54C03D1FB0E7485C074A /* Pods-XKThemeManager_Example.release.xcconfig */,
+			);
+			name = "Pods-XKThemeManager_Example";
+			path = "Target Support Files/Pods-XKThemeManager_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		96883D896B640E4FF59D5C1B65A1AFF6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				783A1D843C6181A15CAE03BF4167DE97 /* XKThemeManager-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E75016DDD7198E55FD422FC6AED7ADF2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F78D607776892F94CA9FC970B192A89 /* Pods-XKThemeManager_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F9D360B8C81E0A0CD02F6FC0ADA20AAB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8996C6338065F0BBE97C970DE54D7E12 /* Pods-XKThemeManager_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 50EAFEF5DB904872FAB7C0AB4CB3EF82 /* Build configuration list for PBXNativeTarget "Pods-XKThemeManager_Example" */;
+			buildPhases = (
+				E75016DDD7198E55FD422FC6AED7ADF2 /* Headers */,
+				43AA5B5B4A3B8A7D866A10F08A5F8ADD /* Sources */,
+				4CB0613BE691E17778B2E8014F38B60D /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BE67103A7AE200BD789BCE1BB8611C27 /* PBXTargetDependency */,
+			);
+			name = "Pods-XKThemeManager_Example";
+			productName = "Pods-XKThemeManager_Example";
+			productReference = FF56AA68BC9DA1DE50BC69E104BF3713 /* Pods-XKThemeManager_Example */;
+			productType = "com.apple.product-type.library.static";
+		};
+		A799D1884E7333072A9D1775D0C6C151 /* XKThemeManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CACA6A43CA0196208626B62FA87E5F71 /* Build configuration list for PBXNativeTarget "XKThemeManager" */;
+			buildPhases = (
+				96883D896B640E4FF59D5C1B65A1AFF6 /* Headers */,
+				E8A7995A7A103FC8E849E35C14AF0A83 /* Sources */,
+				1D694FDACC9AEEA48F92A0E00282F582 /* Frameworks */,
+				9C70B407FF9E2D29B83B8AFD93F3D67D /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = XKThemeManager;
+			productName = XKThemeManager;
+			productReference = 70863FA4FCADF914789801958689E233 /* XKThemeManager */;
+			productType = "com.apple.product-type.library.static";
+		};
+		F7AB711F62458A025C1D0325420EE636 /* Pods-XKThemeManager_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F5BAA925A9B62E3761C66153F6E4365 /* Build configuration list for PBXNativeTarget "Pods-XKThemeManager_Tests" */;
+			buildPhases = (
+				F9D360B8C81E0A0CD02F6FC0ADA20AAB /* Headers */,
+				D4A3885C1C0EED9A335C9B22C99AB3AC /* Sources */,
+				A915EEB28C3769770F564A346CB0F3F6 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD9FEE7F2AD334265B56490293F6EB21 /* PBXTargetDependency */,
+			);
+			name = "Pods-XKThemeManager_Tests";
+			productName = "Pods-XKThemeManager_Tests";
+			productReference = 012680533A739C3626AA5707441DE0FC /* Pods-XKThemeManager_Tests */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = DED788AEB1ECD4EB86D974474C85C703 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8996C6338065F0BBE97C970DE54D7E12 /* Pods-XKThemeManager_Example */,
+				F7AB711F62458A025C1D0325420EE636 /* Pods-XKThemeManager_Tests */,
+				A799D1884E7333072A9D1775D0C6C151 /* XKThemeManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9C70B407FF9E2D29B83B8AFD93F3D67D /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/XKThemeManager/XKThemeManager.modulemap",
+				"${PODS_ROOT}/Headers/Public/XKThemeManager/XKThemeManager-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/XKThemeManager-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/XKThemeManager/XKThemeManager.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/XKThemeManager/XKThemeManager-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43AA5B5B4A3B8A7D866A10F08A5F8ADD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				27E86CF718BA1FDEDC1A38407D98ADB7 /* Pods-XKThemeManager_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D4A3885C1C0EED9A335C9B22C99AB3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6147C4040F6039407796FB98BD20A5B8 /* Pods-XKThemeManager_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8A7995A7A103FC8E849E35C14AF0A83 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087FB069A157C42B882FFDC88157CD46 /* XKThemeExtension.swift in Sources */,
+				E10B7E5FA7955BF2E6ADC0F03D1BC21E /* XKThemeManager.swift in Sources */,
+				8FC3380A7B854F7358A081F11944A9D5 /* XKThemeManager-dummy.m in Sources */,
+				5A3CBA55B640FC073C8D03C57861E905 /* XKThemeProtocol.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD9FEE7F2AD334265B56490293F6EB21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-XKThemeManager_Example";
+			target = 8996C6338065F0BBE97C970DE54D7E12 /* Pods-XKThemeManager_Example */;
+			targetProxy = A0911DE2B62AC6CBB7D0AEE760D48F8A /* PBXContainerItemProxy */;
+		};
+		BE67103A7AE200BD789BCE1BB8611C27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = XKThemeManager;
+			target = A799D1884E7333072A9D1775D0C6C151 /* XKThemeManager */;
+			targetProxy = 36BCA210F9CBC8C40EA4BC1485E9DDFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1C3A3CC9420837DDE29C04C2575F2C16 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 965679519AEE54C03D1FB0E7485C074A /* Pods-XKThemeManager_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKThemeManager_Example/Pods-XKThemeManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76D59431C0CF58DD7AB5035D099C702A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20FDFE85E19E55C761B959E2C6EF303E /* Pods-XKThemeManager_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-XKThemeManager_Example/Pods-XKThemeManager_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		89DEEED76DED3A769B2C52498D42E3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7A821087F7F665FA7C207510DF3ED9E /* Pods-XKThemeManager_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		AF6502A6221208A37253CE2A1F8824C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58ED4BE36F7A3015FD0F9F2D3F2C3EEE /* XKThemeManager.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XKThemeManager/XKThemeManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = Headers/Public/XKThemeManager/XKThemeManager.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XKThemeManager;
+				PRODUCT_NAME = XKThemeManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B5D7B486E63E7E1F285B4FB2242AA73F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 633C42F162380C4FAFDFC54995A63C7E /* Pods-XKThemeManager_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0E90311F0B2A568232FE013E35192F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06ED84DFDA88031574825BC7E86C6DE3 /* XKThemeManager.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/XKThemeManager/XKThemeManager-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MODULEMAP_FILE = Headers/Public/XKThemeManager/XKThemeManager.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = XKThemeManager;
+				PRODUCT_NAME = XKThemeManager;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		50EAFEF5DB904872FAB7C0AB4CB3EF82 /* Build configuration list for PBXNativeTarget "Pods-XKThemeManager_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76D59431C0CF58DD7AB5035D099C702A /* Debug */,
+				1C3A3CC9420837DDE29C04C2575F2C16 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F5BAA925A9B62E3761C66153F6E4365 /* Build configuration list for PBXNativeTarget "Pods-XKThemeManager_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89DEEED76DED3A769B2C52498D42E3FB /* Debug */,
+				B5D7B486E63E7E1F285B4FB2242AA73F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CACA6A43CA0196208626B62FA87E5F71 /* Build configuration list for PBXNativeTarget "XKThemeManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF6502A6221208A37253CE2A1F8824C4 /* Debug */,
+				D0E90311F0B2A568232FE013E35192F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+module XKThemeManager {
+  umbrella header "XKThemeManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

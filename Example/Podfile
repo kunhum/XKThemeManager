@@ -1,6 +1,8 @@
-use_frameworks!
+#use_frameworks!
+inhibit_all_warnings!
+use_modular_headers!
 
-platform :ios, '10.0'
+platform :ios, '13.0'
 
 target 'XKThemeManager_Example' do
   pod 'XKThemeManager', :path => '../'
